@@ -13,3 +13,9 @@ dropbox:
   pkg:
     - installed
     - refresh_db: true
+    - require:
+      - pkg: python-gpgme
+
+python-gpgme:
+  pkg:
+    - installed
