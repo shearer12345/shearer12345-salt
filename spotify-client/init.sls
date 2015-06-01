@@ -16,3 +16,16 @@ spotify-client:
     - installed
     - require:
       - pkg: libgcrypt11
+
+
+utopic-security-repo:
+  pkgrepo.managed:
+    - humanname: utopic-security Repo
+    - name: deb http://security.ubuntu.com/ubuntu utopic-security main
+    - file: /etc/apt/sources.list.d/utopic-security.list
+    - require_in:
+      - pkg: libgcrypt11
+
+libgcrypt11:
+  pkg:
+    - installed
