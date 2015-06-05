@@ -1,6 +1,6 @@
 # Google Chrome
 
-google-chrome-repo:
+google-chrome:
   pkgrepo.managed:
     - humanname: Google Chrome Repo
     - name: deb http://dl.google.com/linux/chrome/deb/ stable main
@@ -9,7 +9,6 @@ google-chrome-repo:
     - refresh_db: true
     - require_in:
       - pkg: google-chrome-stable
-
-google-chrome-stable:
   pkg:
-    - installed
+    - name: google-chrome-stable
+    - latest
