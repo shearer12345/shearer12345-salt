@@ -1,3 +1,3 @@
-wireshark:
+asciidoctor:
   pkg:
     - installed
