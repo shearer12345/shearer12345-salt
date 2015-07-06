@@ -35,6 +35,8 @@ include:
   - skype
   - get-iplayer
   - kodi
+  - obs-studio
+  - mesa
 #  - webupd8team-unstable
 
 
