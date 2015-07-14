@@ -38,6 +38,7 @@ include:
   - kodi
   - obs-studio
   - mesa
+  - nodejs
 #  - webupd8team-unstable
 
 #TODO WINE
