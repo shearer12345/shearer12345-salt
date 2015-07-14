@@ -22,6 +22,7 @@ mypkgs:
       - vinagre
       - ipython
       - blender
+      - inkscape
  
 include:
   - atom
@@ -39,6 +40,7 @@ include:
   - mesa
 #  - webupd8team-unstable
 
+#TODO WINE
 
 #TODO firefox add-ons
 # - British English Dictionaryies
