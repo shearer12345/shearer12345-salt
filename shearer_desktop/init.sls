@@ -23,6 +23,12 @@ mypkgs:
       - ipython
       - blender
       - inkscape
+      - exfat-fuse
+      - exfat-utils
+      - premake4
+      - build-essential
+      - libsdl2-dev
+      - libglew-dev
  
 include:
   - atom
@@ -39,6 +45,7 @@ include:
   - obs-studio
   - mesa
   - nodejs
+
 #  - webupd8team-unstable
 
 #TODO WINE
