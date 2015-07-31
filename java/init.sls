@@ -1,3 +1,9 @@
+java:
+  require:
+    - pkg: openjdk-7-jre
+    - pkg: icedtea-7-plugin
+    - file: JAVA_HOME
+
 openjdk-7-jre:
   pkg:
     - installed
