@@ -45,7 +45,8 @@ include:
   - kodi
   - obs-studio
   - mesa
-  - nodejs
+
+#  - node
 
 #  - webupd8team-unstable
 
