@@ -1,4 +1,4 @@
-
+ 
 /home/shearer/code:
   file.directory:
     - user: shearer
@@ -29,6 +29,7 @@ mypkgs:
       - build-essential
       - libsdl2-dev
       - libglew-dev
+      - calibre
  
 include:
   - atom
