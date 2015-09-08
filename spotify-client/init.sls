@@ -5,7 +5,7 @@ spotify-repo:
     - humanname: Spotify Repo
     - name: deb http://repository.spotify.com stable non-free
     - file: /etc/apt/sources.list.d/spotify.list
-    - keyid: 94558F59
+    - keyid: D2C19886
     - keyserver: keyserver.ubuntu.com
     - refresh_db: true
     - require_in:
