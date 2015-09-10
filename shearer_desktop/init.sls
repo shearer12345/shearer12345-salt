@@ -45,6 +45,7 @@ include:
   - kodi
   - obs-studio
   - mesa
+  - synapse
 
 #  - node
 
@@ -71,6 +72,7 @@ include:
 #  - network monitor
 #  - CPU monitor
 #  - keyboard shortcuts
+#  - synapse config
 #  - pillar for private data
 #    - firefox sync
 #  - ipython
