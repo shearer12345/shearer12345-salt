@@ -1,5 +1,5 @@
 base:
   darkwing:
     - shearer_desktop
-  darkfoot:
+  deskwing:
     - shearer_desktop
