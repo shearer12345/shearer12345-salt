@@ -1,4 +1,6 @@
-vagrant:
+{% if grains['os'] == 'Ubuntu' %}
+{% if grains['osrelease'] < '15.10' %}
+vagrant_repo:
   pkgrepo.managed:
    - humanname: Vagrant Repo
    - name: deb http://vagrant-deb.linestarve.com/ any main
@@ -8,5 +10,9 @@ vagrant:
    - refresh_db: true
    - require_in:
      - pkg: vagrant
-  pkg.latest:
+{% endif %}
+{% endif %}
+
+vagrant:
+  pkg.installed:
     - refresh: true
