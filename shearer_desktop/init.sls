@@ -45,6 +45,7 @@ include:
   - kodi
   - obs-studio
   - mesa
+  - pandoc
 
 #  - node
 
