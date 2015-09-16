@@ -1,5 +1,4 @@
- 
-/home/shearer/code:
+ /home/shearer/code:
   file.directory:
     - user: shearer
     - group: shearer
@@ -46,6 +45,7 @@ include:
   - obs-studio
   - mesa
   - pandoc
+  - synapse
 
 #  - node
 
@@ -72,6 +72,7 @@ include:
 #  - network monitor
 #  - CPU monitor
 #  - keyboard shortcuts
+#  - synapse config
 #  - pillar for private data
 #    - firefox sync
 #  - ipython
