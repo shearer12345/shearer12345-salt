@@ -1,9 +1,11 @@
-mesa:
+mesa-repo:
   pkgrepo.managed:
     - ppa: xorg-edgers/ppa
-    - require_in:
-      - pkg: mesa
+    - refresh_db: true
+
+mesa-packages:
   pkg.latest:
     - refresh: true
-
-
+    - fromrepo: "ppa: xorg-edgers/ppa"
+    - pkgs:
+      - libglapi-mesa
