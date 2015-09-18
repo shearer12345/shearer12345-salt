@@ -29,6 +29,11 @@ mypkgs:
       - libsdl2-dev
       - libglew-dev
       - calibre
+
+myNotInstalledPkgs:
+  pkg.removed:
+    - pkgs:
+      - thunderbird
  
 include:
   - atom
