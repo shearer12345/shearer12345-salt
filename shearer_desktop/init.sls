@@ -50,13 +50,9 @@ include:
   - mesa
   - pandoc
   - synapse
-
-
   - vlc
-
-
   - gimp
-#  - node
+  - node
 
 #  - webupd8team-unstable
 
