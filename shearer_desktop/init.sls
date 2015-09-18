@@ -12,7 +12,6 @@ mypkgs:
       - gparted
       - spotify-client
       - cheese
-      - vlc
       - audacity
       - curl
       - libreoffice
@@ -46,6 +45,9 @@ include:
   - obs-studio
   - mesa
   - synapse
+
+
+  - vlc
 
 #  - node
 
