@@ -54,6 +54,8 @@ include:
 
   - vlc
 
+
+  - gimp
 #  - node
 
 #  - webupd8team-unstable
