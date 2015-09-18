@@ -19,3 +19,9 @@ dropbox:
 python-gpgme:
   pkg:
     - installed
+
+dropbox-autostart:
+  cmd.run:
+    - require:
+      - pkg: dropbox
+    - name: dropbox autostart y
