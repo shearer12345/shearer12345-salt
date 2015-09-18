@@ -1,5 +1,4 @@
- 
-/home/shearer/code:
+ /home/shearer/code:
   file.directory:
     - user: shearer
     - group: shearer
@@ -49,6 +48,7 @@ include:
   - kodi
   - obs-studio
   - mesa
+  - pandoc
   - synapse
 
 
