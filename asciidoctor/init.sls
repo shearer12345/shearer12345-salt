@@ -2,7 +2,7 @@ include:
   - java
 
 asciidoctor:
-  gem.installed:
+  pkg.installed:
     - version: 1.5.2
 
 asciidoctor-diagram:
