@@ -1,0 +1,2 @@
+codelite:
+  pkg.installed

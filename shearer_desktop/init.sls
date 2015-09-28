@@ -23,10 +23,6 @@ mypkgs:
       - inkscape
       - exfat-fuse
       - exfat-utils
-      - premake4
-      - build-essential
-      - libsdl2-dev
-      - libglew-dev
       - calibre
 
 myNotInstalledPkgs:
@@ -53,6 +49,7 @@ include:
   - vlc
   - gimp
   - node
+  - graphicsByExampleDependencies
 
 #  - webupd8team-unstable
 
