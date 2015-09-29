@@ -49,6 +49,7 @@ include:
   - vlc
   - gimp
   - node
+  - gigolo
   - graphicsByExampleDependencies
 
 #  - webupd8team-unstable

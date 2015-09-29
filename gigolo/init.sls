@@ -1,0 +1,3 @@
+gigolo:
+  pkg:
+    - installed
