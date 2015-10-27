@@ -51,6 +51,7 @@ include:
   - node
   - gigolo
   - graphicsByExampleDependencies
+  - graphicsByExampleDependencies.apitrace
 
 #  - webupd8team-unstable
 
